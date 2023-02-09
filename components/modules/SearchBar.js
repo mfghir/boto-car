@@ -20,12 +20,12 @@ const SearchBar = () => {
     <div className={styles.container}>
       <div>
         <input
-          placeholder="Inter min-price"
+          placeholder="Enter min-price"
           value={min}
           onChange={(e) => setMin(e.target.value)}
         />
         <input
-          placeholder="Inter max-price"
+          placeholder="Enter max-price"
           value={max}
           onChange={(e) => setMax(e.target.value)}
         />
