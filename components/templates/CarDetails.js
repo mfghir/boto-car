@@ -1,9 +1,11 @@
 import Calender from "../icons/Calender";
 import Company from "../icons/Company";
 import Location from "../icons/Location";
+
 import Model from "../icons/Model";
 import Money from "../icons/Money";
 import Road from "../icons/Road";
+
 import styles from "./CarDetails.module.css";
 
 const CarDetails = (props) => {
@@ -32,16 +34,19 @@ const CarDetails = (props) => {
           <p>Company</p>
           <span>{name}</span>
         </div>
+
         <div>
           <Model />
           <p>Model</p>
           <span>{model}</span>
         </div>
+
         <div>
           <Calender />
           <p>First registration</p>
           <span>{year}</span>
         </div>
+
         <div>
           <Road />
           <p>kms driven</p>
@@ -69,7 +74,6 @@ const CarDetails = (props) => {
           <span>{price}</span>
         </div>
       </div>
-
       <button className={styles.button}>Buy</button>
     </div>
   );
