@@ -18,7 +18,7 @@ const Categories = () => {
 
       <Link href="/categories/suv">
         <div>
-          <p>Suv</p>
+          <p>SUV</p>
           <Suv />
         </div>
       </Link>
